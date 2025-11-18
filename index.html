@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="images/logo-icon.ico" />
     <!-- Boxicons -->
     <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <!-- CSS link -->
@@ -29,7 +30,759 @@
     </div>
   </div>
 
-  
+  <!-- Taomlar -->
+    <div id="about" class="px-[5%] py-8 md:py-16 text-center">
+      <!-- Location Buttons Tabs -->
+      <div
+        id="locationTabs"
+        class="flex justify-start md:justify-center space-x-1 md:space-x-2 bg-white p-2 rounded-full shadow-lg overflow-x-auto scrollbar-hide max-w-fit mx-auto mb-4"
+      >
+        <button
+          class="uppercase px-4 md:px-6 py-2 rounded-full cursor-pointer bg-lime-500 text-white transition duration-300 hover:shadow-lg hover:shadow-lime-700 text-sm md:text-base"
+        >
+          BOWLLAR
+        </button>
+        <button
+          class="uppercase px-4 md:px-6 py-2 rounded-full cursor-pointer text-lime-500 hover:bg-lime-500 hover:text-white transition duration-300 hover:shadow-lg hover:shadow-lime-700 text-sm md:text-base"
+        >
+          WRAPLAR
+        </button>
+        <button
+          class="uppercase px-4 md:px-6 py-2 rounded-full cursor-pointer text-lime-500 hover:bg-lime-500 hover:text-white transition duration-300 hover:shadow-lg hover:shadow-lime-700 text-sm md:text-base"
+        >
+          SALATLAR
+        </button>
+        <button
+          class="uppercase px-4 md:px-6 py-2 rounded-full cursor-pointer text-lime-500 hover:bg-lime-500 hover:text-white transition duration-300 hover:shadow-lg hover:shadow-lime-700 text-sm md:text-base"
+        >
+          SHO'RVALAR
+        </button>
+        <button
+          class="uppercase px-4 md:px-6 py-2 rounded-full cursor-pointer text-lime-500 hover:bg-lime-500 hover:text-white transition duration-300 hover:shadow-lg hover:shadow-lime-700 text-sm md:text-base"
+        >
+          ICHIMLIKLAR
+        </button>
+      </div>
+      <div id="tabContainer">
+        <!-- BOWLLAR -->
+        <div
+          id="tabContent"
+          class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 items-center transition-all duration-300 ease-in-out transform opacity-0 translate-y-4"
+        >
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/bowl/1.jpg"
+              alt="about"
+              class="h-56 object-cover rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Kotletliii bowl
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >399 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>35 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>16 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  32 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                59,000 so'm
+              </h4>
+              <button
+                class="add-to-cart flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+                data-name="Kotletliii bowl"
+                data-price="59000"
+                data-img="images/bowl/1.jpg"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/bowl/2.jpg"
+              alt="about"
+              class="h-56 object-cover rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Kotletliii bowl
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >398 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>41 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>10 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  38 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                69,000 so'm
+              </h4>
+              <button
+                class="add-to-cart flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+                data-name="Kotletliii bowl"
+                data-price="59000"
+                data-img="images/bowl/1.jpg"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/bowl/3.jpg"
+              alt="about"
+              class="h-56 object-cover rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Kotletliii bowl
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >445 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>37 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>175 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  36 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                89,000 so'm
+              </h4>
+              <button
+                class="add-to-cart flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+                data-name="Kotletliii bowl"
+                data-price="59000"
+                data-img="images/bowl/1.jpg"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- WRAPLAR -->
+        <div
+          id="tabContent"
+          class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 items-center transition-all duration-300 ease-in-out transform opacity-0 translate-y-4"
+        >
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/wrap/1.jpg"
+              alt="about"
+              class="h-56 object-cover object-center rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Go'shtliii wrap
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >399 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>35 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>16 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  32 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                59,000 so'm
+              </h4>
+              <button
+                class="flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/wrap/2.jpg"
+              alt="about"
+              class="h-56 object-cover object-center rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Tovuqliii wrap
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >398 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>41 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>10 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  38 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                69,000 so'm
+              </h4>
+              <button
+                class="flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/wrap/3.jpg"
+              alt="about"
+              class="h-56 object-cover object-center rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Sabzavotliii wrap
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >445 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>37 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>175 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  36 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                89,000 so'm
+              </h4>
+              <button
+                class="flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- SALATLAR -->
+        <div
+          id="tabContent"
+          class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 items-center transition-all duration-300 ease-in-out transform opacity-0 translate-y-4"
+        >
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/salat/1.jpg"
+              alt="about"
+              class="h-56 object-cover rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Kotletliii bowl
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >399 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>35 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>16 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  32 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                59,000 so'm
+              </h4>
+              <button
+                class="flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/salat/2.jpg"
+              alt="about"
+              class="h-56 object-cover rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Kotletliii bowl
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >398 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>41 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>10 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  38 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                69,000 so'm
+              </h4>
+              <button
+                class="flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/salat/3.jpg"
+              alt="about"
+              class="h-56 object-cover rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Kotletliii bowl
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >445 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>37 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>175 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  36 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                89,000 so'm
+              </h4>
+              <button
+                class="flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- SHO'RVALAR -->
+        <div
+          id="tabContent"
+          class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 items-center transition-all duration-300 ease-in-out transform opacity-0 translate-y-4"
+        >
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/shorva/1.jpg"
+              alt="about"
+              class="h-56 object-cover rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Kotletliii bowl
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >399 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>35 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>16 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  32 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                59,000 so'm
+              </h4>
+              <button
+                class="flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/shorva/2.jpg"
+              alt="about"
+              class="h-56 object-cover rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Kotletliii bowl
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >398 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>41 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>10 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  38 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                69,000 so'm
+              </h4>
+              <button
+                class="flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/shorva/1.jpg"
+              alt="about"
+              class="h-56 object-cover rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Kotletliii bowl
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >445 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>37 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>175 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  36 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                89,000 so'm
+              </h4>
+              <button
+                class="flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- ICHIMLIKLAR -->
+        <div
+          id="tabContent"
+          class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 items-center transition-all duration-300 ease-in-out transform opacity-0 translate-y-4"
+        >
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/ichimlik/1.jpg"
+              alt="about"
+              class="h-56 object-contain rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Kotletliii bowl
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >399 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>35 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>16 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  32 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                59,000 so'm
+              </h4>
+              <button
+                class="flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/ichimlik/2.jpg"
+              alt="about"
+              class="h-56 object-contain rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Kotletliii bowl
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >398 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>41 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>10 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  38 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                69,000 so'm
+              </h4>
+              <button
+                class="flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              src="images/ichimlik/3.png"
+              alt="about"
+              class="h-56 object-contain rounded-xl mb-3 w-full mx-auto"
+            />
+            <div>
+              <div class="flex justify-between items-center mt-7 mb-3">
+                <h3 class="text-2xl font-bold text-green-700 text-left">
+                  Kotletliii bowl
+                </h3>
+                <span
+                  class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
+                  >445 kkal</span
+                >
+              </div>
+              <p
+                class="text-green-700 text-left mb-4 font-semibold border-b-2 border-dashed border-green-700 pb-4"
+              >
+                Tovuq kotleti, bulg'ur, gilos pomidor, brokkoli, salat
+                aralashmasi, pesto sousi
+              </p>
+              <div
+                class="flex justify-between items-center mb-7 text-green-700 font-black text-xl leading-6 px-5"
+              >
+                <h3>37 gr <span class="block font-semibold">Oqsillar</span></h3>
+                <h3>175 gr <span class="block font-semibold">Yog'lar</span></h3>
+                <h3>
+                  36 gr <span class="block font-semibold">Uglevodlar</span>
+                </h3>
+              </div>
+              <h4 class="mb-4 text-left text-2xl font-bold text-green-700">
+                89,000 so'm
+              </h4>
+              <button
+                class="flex items-center justify-center gap-2 cursor-pointer shadow-md duration-300 hover:shadow-green-800 px-5 py-2 bg-green-700 text-white w-full rounded-md"
+              >
+                <i class="text-2xl bx bx-cart"></i>
+                <span>Savatga qo'shish</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div
+      id="cartModal"
+      class="fixed inset-0 bg-black/40 backdrop-blur-sm hidden z-50 flex items-center justify-center"
+    >
+      <!-- Modal content -->
+      <div class="bg-white w-[90%] rounded-2xl shadow-xl p-6 relative">
+        <div class="flex justify-between items-center mb-4  ">
+          <!-- Title -->
+          <h2 class="text-xl font-semibold flex items-center gap-2">
+            <i class="bx bx-cart text-2xl"></i>
+            Savatcha
+          </h2>
+          <!-- Yopish -->
+          <button
+            id="closeCart"
+            class="px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg font-medium duration-200"
+          >
+            Yopish
+          </button>
+        </div>
+
+        <!-- Cart items list -->
+        <div id="cartItems" class="space-y-4 max-h-[60vh] overflow-y-auto">
+          <!-- JS orqali to‘ldiriladi -->
+        </div>
+
+        <!-- Total price -->
+        <div class="flex items-center justify-between mt-4 border-t pt-4">
+          <span class="text-lg font-semibold">Jami:</span>
+          <span id="cartTotal" class="text-lg font-bold text-green-600"
+            >0 so'm</span
+          >
+        </div>
+
+        <!-- Buttons -->
+        <div class="mt-6 flex items-center justify-between">
+          <!-- Buyurtma Berish -->
+          <button
+            id="checkoutBtn"
+            class="px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium shadow-md duration-200"
+          >
+            Buyurtma berish
+          </button>
+        </div>
+      </div>
+    </div>
 
   <script src="script.js"></script>
 </body>
