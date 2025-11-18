@@ -1,3 +1,4 @@
+// Slider
 let sliderEl = document.querySelector("#slider")
 let count = 0
 let intervalId
@@ -13,7 +14,7 @@ let moveSlider = () => {
 }
 
 let startSlider = () => {
-  intervalId = setInterval(moveSlider, 10000)
+  intervalId = setInterval(moveSlider, 7000)
 }
 
 let stopSlider = () => {
