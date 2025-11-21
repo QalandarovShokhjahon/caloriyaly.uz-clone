@@ -123,7 +123,7 @@
             <div>
               <div class="flex justify-between items-center mt-7 mb-3">
                 <h3 class="text-2xl font-bold text-green-700 text-left">
-                  Kotletliii bowl
+                  Tovuqliii bowl
                 </h3>
                 <span
                   class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
@@ -168,7 +168,7 @@
             <div>
               <div class="flex justify-between items-center mt-7 mb-3">
                 <h3 class="text-2xl font-bold text-green-700 text-left">
-                  Kotletliii bowl
+                  Go'shtliii bowl
                 </h3>
                 <span
                   class="border-2 border-green-700 rounded-full px-4 py-1 bg-green-200 font-bold text-green-700"
@@ -771,18 +771,83 @@
           >
         </div>
 
-        <!-- Buttons -->
-        <div class="mt-6 flex items-center justify-between">
-          <!-- Buyurtma Berish -->
+        <!-- Customer Information -->
+        <div id="customerInfo" class="mt-6 space-y-4 hidden">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Ismingiz</label>
+            <input type="text" id="customerName" class="w-full px-3 py-2 border border-gray-300 rounded-md" placeholder="Ismingizni kiriting" required>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Telefon raqamingiz</label>
+            <input type="tel" id="customerPhone" class="w-full px-3 py-2 border border-gray-300 rounded-md" placeholder="+998 90 123 45 67" required>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Yetkazib berish manzili</label>
+            <textarea id="deliveryAddress" class="w-full px-3 py-2 border border-gray-300 rounded-md" rows="2" placeholder="Manzilingizni batafsil yozing" required></textarea>
+          </div>
+          <div class="flex space-x-4">
+            <button type="button" id="cancelOrderBtn" class="flex-1 px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-lg font-medium">Bekor qilish</button>
+            <button type="button" id="confirmOrderBtn" class="flex-1 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium">Tasdiqlash</button>
+          </div>
+        </div>
+
+        <!-- Order Button (Initially shown) -->
+        <div id="orderButtonContainer" class="mt-6">
           <button
             id="checkoutBtn"
-            class="px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium shadow-md duration-200"
+            class="w-full px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium shadow-md duration-200"
           >
             Buyurtma berish
           </button>
         </div>
       </div>
     </div>
+
+    <!-- Nega CALORIYALY? Section -->
+    <section class="bg-white py-16 px-5">
+      <div class="container mx-auto max-w-6xl text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-12">Nega CALORIYALY?</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <div class="p-6 rounded-xl bg-gray-50">
+            <div class="w-20 h-20 bg-lime-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <i class='bx bxs-leaf text-3xl text-green-600'></i>
+            </div>
+            <h3 class="text-xl font-semibold text-green-900 mb-2">Tabiiy Mahsulotlar</h3>
+            <p class="text-gray-600">Faqat tabiiy va sifatli mahsulotlardan tayyorlanadigan taomlar</p>
+          </div>
+          
+          <!-- Card 2 -->
+          <div class="p-6 rounded-xl bg-gray-50">
+            <div class="w-20 h-20 bg-lime-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <i class='bx bxs-bowl-hot text-3xl text-green-600'></i>
+            </div>
+            <h3 class="text-xl font-semibold text-green-900 mb-2">Zehmatli Ta'm</h3>
+            <p class="text-gray-600">Professional oshpazlar tomonidan tayyorlanadigan lazzatli taomlar</p>
+          </div>
+          
+          <!-- Card 3 -->
+          <div class="p-6 rounded-xl bg-gray-50">
+            <div class="w-20 h-20 bg-lime-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <i class='bx bxs-truck text-3xl text-green-600'></i>
+            </div>
+            <h3 class="text-xl font-semibold text-green-900 mb-2">Tez Yetkazish</h3>
+            <p class="text-gray-600">Buyurtmangizni tez va ishonchli tarzda yetkazib berish</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-green-800 text-white py-4">
+    <div class="container mx-auto px-5">
+      <!-- Copyright -->
+      <div class="text-center text-gray-300 text-sm">
+        <p>© 2025 Caloriyaly. Barcha huquqlar himoyalangan.</p>
+        <p class="mt-1">Bu sayt <a href="https://caloriyaly.uz" target="_blank" class="text-lime-300 hover:underline">caloriyaly.uz</a> saytining clone versiyasi hisoblanadi</p>
+      </div>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
