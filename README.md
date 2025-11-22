@@ -31,7 +31,7 @@ The project is a front-end clone created for learning and improving development 
 
 ---
 
-## 🌍 Jonli sayt / View website
+## 🌍 Jonli sayt / Live Demo
 🔗 [Saytni ko‘rish / View Website](https://caloriyaly-uz-clone.vercel.app/)
 
 ---
